@@ -20,13 +20,6 @@ pen.goto(-120,250)
 pen.color("white")
 pen.write("Turetle Race", font=("ariel",30,"bold"))
 
-#pen
-pen1 = turtle.Turtle()
-pen1.penup()
-pen1.hideturtle()
-pen1.goto(150, 250)
-pen1.color("white")
-pen1.write("Dev Liad Shmil", font=("ariel",13,"bold"))
 
 
 
