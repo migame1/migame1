@@ -12,19 +12,19 @@
           background: #112c38;
 
       }
-      ol {
+      ul {
           margin: 0;
           padding: 0;
           display: flex;
         }
       }
-      ol li {
+      ul li {
           list-style: none;
           margin: 0 20px;
           transition: 0.5s;
 
       }
-      ol li a {
+      ul li a {
           display: block;
           position: relative;
           text-decoration: none;
@@ -34,17 +34,17 @@
           color: #fff;
           text-transform: uppercase;
       }
-      ol:hover li a {
+      ul:hover li a {
           transform: scale(1.5);
           opacity: .5;
           filter: blur(5px);
       }
-      ol li a:hover  {
+      ul li a:hover  {
           transform: scale(2);
           opacity: 1;
           filter: blur(0);
       }
-      ol li a:before {
+      ul li a:before {
           content: ' ';
           position: absolute;
           top: 0;
@@ -57,7 +57,7 @@
           transform: scaleX(0);
           z-index: -1;
       }
-      ol li a:hover:before {
+      ul li a:hover:before {
           transition: transform 0.5s;
           transform-origin: left;
           transform: scaleX(1);
